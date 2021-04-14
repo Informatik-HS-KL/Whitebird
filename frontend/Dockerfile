@@ -6,11 +6,11 @@ LABEL stage="builder"
 WORKDIR /app
 
 # Backend Server Location
-ENV API_URL='http://localhost:40001/'
-ENV SOCKET_URL='http://localhost:40001/'
+ENV API_URL='http://10.0.3.97:3041/'
+ENV SOCKET_URL='http://10.0.3.97:3041/'
 
 # Frontend Host
-ENV FRONTEND_HOST='http://localhost:40000'
+ENV FRONTEND_HOST='http://10.0.3.97:3040'
 
 # Copy Needed Files for Dependencies
 COPY package.json ./package.json
