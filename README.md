@@ -30,6 +30,10 @@ Currently the application is in early development and contains the following fea
 
 ### Getting Started
 
+#### On the HS-KL Server
+run `docker-compose up -d` in the `docker\whitebird_prod` directory
+
+
 #### For Users
 
 To run the application you can use docker to setup the application. Visit our [Getting Started](https://github.com/BuchholzTim/Whitebird/wiki/Getting-Started) for more information on how to deploy the application.
